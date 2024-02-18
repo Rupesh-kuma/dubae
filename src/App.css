@@ -1,0 +1,95 @@
+@import "./header/navbar.css";
+@import "./Home/home.css";
+@import "./Residential/residential.css";
+@import "./Barashi/barashi.css";
+@import "./Detail_page/detail_page.css";
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.u-userLauncherColor:not([disabled]) {
+  background-color: #093728 !important;
+  color: #FFFFFF !important;
+  fill: #FFFFFF !important;
+}
+.wrapper-AtBcr {
+  color: #fff;
+  fill: #fff;
+  padding: 0.92857rem 1.57143rem;
+  border-radius: 999rem;
+  bottom: 0;
+  letter-spacing: 0.6;
+  font-size: 1.07143rem;
+}
+.u-borderNone {
+  border: none !important;
+}
+.u-textBold {
+  font-weight: 700;
+}
+.Arrange {
+  box-sizing: border-box;
+  display: table;
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+  table-layout: auto;
+}
+.u-textNoWrap {
+  white-space: nowrap !important;
+}
+.u-textLeft {
+  text-align: left !important;
+}
+.u-isActionable {
+  cursor: pointer !important;
+}
+.Arrange--middle .Arrange-sizeFit {
+  vertical-align: middle;
+}
+.icon-3E9qF {
+  padding-right: 0.57143rem;
+}
+.Arrange--middle .Arrange-sizeFit {
+  vertical-align: middle;
+}
+.u-inlineBlock {
+  display: inline-block !important;
+  max-width: 100%;
+}
+.modal {
+  --bs-modal-width: 300px !important;
+}

@@ -1,0 +1,12 @@
+.footer_padding{
+    padding: 30px 70px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:focus {
+    border-bottom: 2px solid black;
+    color: red !important;
+}

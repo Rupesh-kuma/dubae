@@ -1,0 +1,32 @@
+.residential{
+    padding: 100px 0 85px;
+}
+.residential_shedow{
+    box-shadow: 2px 3px 4px 3px rgb(84, 82, 82);
+}
+.residential_padding{
+    padding-bottom:60px ;
+}
+.banner_image{
+    height: 100vh;
+}
+.banner::before{
+    content: "";
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(210, 210, 212, 0.55) 0%,rgba(211, 211, 213, 0.55) 35%,rgba(210, 210, 214, 0.55) 60%,rgba(211, 209, 209, 0.55) 100%);
+    opacity: 1;
+}
+.banner_color_icon{
+    color: #fff;
+    border: 2px solid #ffffff;
+    width: 78px;
+    height: 78px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #5d5a5a;
+}
